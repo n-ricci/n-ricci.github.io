@@ -1,0 +1,94 @@
+body {
+  font-family: helvetica;
+  font-weight: 200;
+  color: #333;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+div#logo {
+  position: fixed;
+  top:20px;
+  left:25px;
+  color:#666;
+  font-size:18px;
+  letter-spacing: 4px;
+}
+
+p#homeName {
+  position: relative;
+  top:100px;
+  color: #999;
+}
+
+div#homeMenu {
+  position: relative;
+  text-align: center;
+  top:200px;
+  font-family: helvetica;
+  font-weight: 100;
+  color: #333;
+  max-width: 1300px;
+  margin:auto;
+}
+
+a.icons {
+  opacity: 0.65;
+}
+a.icons:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+div.header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    margin-top:0px;
+    height: 200px;
+}
+div.header#research {
+  background: url('../images/research.jpg') no-repeat center center;
+}
+div.header#viz {
+  background: url('../images/dataviz.jpg') no-repeat center center ;
+}
+div.header#web {
+  background: url('../images/webdev.jpg') no-repeat center center ;
+}
+div.header#about {
+  background: url('../images/about.jpg') no-repeat center center;
+}
+
+
+iframe {
+  position: relative;
+  margin:auto;
+  margin-bottom:50px;
+  outline: 0px solid rgba(20,20,20,0.5);
+}
+
+iframe#CambridgeTalks {
+  width: 1162px;
+  height:7050px;
+}
+iframe#CambridgeStats {
+  width: 1162px;
+  height:820px;
+}
+iframe#citiBike {
+  width: 1162px;
+  height:820px;
+}
+
+
+div.title {
+  position: absolute;
+  width:100%;
+  text-align: center;
+  font-size:18px;
+}
