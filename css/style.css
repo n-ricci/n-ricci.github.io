@@ -1,8 +1,9 @@
 /* Document styling */
 body {
-  background-color: #eee;
+  background-color: rgb(252,252,252);
   font-family: courier new, sans-serif;
   font-weight: 100;
+  height:600px;
 }
 
 #wrapper {
@@ -13,7 +14,7 @@ body {
 
 #chart {
   position: absolute;
-  top: 100px;
+  top: 40px;
   left: 250px;
   font-family: helvetica;
   font-size: 16px;
@@ -43,14 +44,14 @@ body {
 
 #menu {
   position: absolute;
-  top: 120px;
+  top: 70px;
   left: 30px;
   width: 300px;
 }
 
 #selectedDesigns {
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 30px;
   width: 300px;
 }

@@ -8,9 +8,9 @@ body {
 }
 
 div#logo {
-  position: fixed;
+  position: relative;
   top:20px;
-  left:25px;
+  float: center;
   color:#666;
   font-size:18px;
   letter-spacing: 4px;
@@ -19,7 +19,9 @@ div#logo {
 p#homeName {
   position: relative;
   top:100px;
-  color: #999;
+  color: #ddd;
+  letter-spacing: 5px;
+  font-size: 28px
 }
 
 div#homeMenu {
@@ -33,10 +35,21 @@ div#homeMenu {
   margin:auto;
 }
 
+a {
+  text-decoration: none;
+}
 a.icons {
-  opacity: 0.65;
+  opacity: 1;
 }
 a.icons:hover {
+  opacity: 0.65;
+  text-decoration: none;
+}
+
+a.hyperlink {
+  opacity: 0.65;
+}
+a.hyperlink:hover {
   opacity: 1;
   text-decoration: none;
 }
@@ -68,21 +81,26 @@ div.header#about {
 iframe {
   position: relative;
   margin:auto;
-  margin-bottom:50px;
-  outline: 0px solid rgba(20,20,20,0.5);
+  margin-bottom:60px;
 }
 
 iframe#CambridgeTalks {
   width: 1162px;
-  height:7050px;
+  height:7000px;
 }
 iframe#CambridgeStats {
   width: 1162px;
-  height:820px;
+  height:770px;
 }
 iframe#citiBike {
   width: 1162px;
   height:820px;
+  outline: 2px solid rgba(220,220,220,0.5);
+}
+iframe#tradespace {
+  width: 1162px;
+  height:720px;
+  outline: 2px solid rgba(220,220,220,0.5);
 }
 
 
@@ -91,4 +109,33 @@ div.title {
   width:100%;
   text-align: center;
   font-size:18px;
+}
+#menu {
+  padding-left: 0px;
+}
+#menu li { 
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline; 
+  padding-left: 4px;
+  padding-right: 4px;
+  vertical-align: middle;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
+#menu li:hover {
+  color: rgba(0,0,0,0.7);
+  text-decoration: none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 2px;
+}
+
+#menu li.selected {
+  text-decoration: none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 2px;
+  color: rgba(20,20,20,1);
 }
