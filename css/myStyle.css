@@ -1,0 +1,145 @@
+body {
+  font-family: helvetica;
+  font-weight: 200;
+  color: #333;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+div#logo {
+  position: relative;
+  top:20px;
+  float: center;
+  color:#666;
+  font-size:18px;
+  letter-spacing: 4px;
+}
+
+p#homeName {
+  position: relative;
+  top:100px;
+  color: #ddd;
+  letter-spacing: 5px;
+  font-size: 28px
+}
+
+div#homeMenu {
+  position: relative;
+  text-align: center;
+  top:200px;
+  font-family: helvetica;
+  font-weight: 100;
+  color: #333;
+  max-width: 1300px;
+  margin:auto;
+}
+
+a {
+  color:#000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+a.icons {
+  opacity: 1;
+}
+a.icons:hover {
+  opacity: 0.65;
+  text-decoration: none;
+}
+
+a.hyperlink {
+  opacity: 0.65;
+}
+a.hyperlink:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+div.header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    margin-top:0px;
+    height: 200px;
+}
+div.header#research {
+  background: url('../images/research.jpg') no-repeat center center;
+}
+div.header#viz {
+  background: url('../images/dataviz.jpg') no-repeat center center ;
+}
+div.header#web {
+  background: url('../images/webdev.jpg') no-repeat center center ;
+}
+div.header#about {
+  background: url('../images/about.jpg') no-repeat center center;
+}
+
+
+iframe {
+  position: relative;
+  margin:auto;
+  margin-bottom:60px;
+}
+
+iframe#CambridgeTalks {
+  width: 1162px;
+  height:7000px;
+}
+iframe#CambridgeStats {
+  width: 1162px;
+  height:770px;
+}
+iframe#citiBike {
+  width: 1162px;
+  height:820px;
+  outline: 2px solid rgba(220,220,220,0.5);
+}
+iframe#tradespace {
+  width: 1162px;
+  height:720px;
+  outline: 2px solid rgba(220,220,220,0.5);
+}
+
+
+div.title {
+  position: absolute;
+  width:100%;
+  text-align: center;
+  font-size:18px;
+}
+#menu {
+  padding-left: 0px;
+}
+#menu li { 
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline; 
+  padding-left: 4px;
+  padding-right: 4px;
+  vertical-align: middle;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
+#menu li:hover {
+  color: rgba(0,0,0,0.7);
+  text-decoration: none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 2px;
+}
+
+#menu li.selected {
+  text-decoration: none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 2px;
+  color: rgba(20,20,20,1);
+}
